@@ -4,11 +4,12 @@
 }
 <h1>Plant Reccomendations For Your Climate</h1>
 
-<!--<img src="https://scijinks.gov/review/climate-zones/climate-zones4.png" alt="climate zones map" id="climateMap"/> -->
+<div class="img">
+    <img src="https://scijinks.gov/review/climate-zones/climate-zones4.png" alt="climate zones map" id="climateMap" height="600"/>
+</div>
 
-
-<button id="tropBtn" onclick="showTab()">Tropical</button>
-
+<div class="first">
+    <button id="tropBtn" onclick="showTropTab()" class="trop">Tropical</button>
 <table id="tropTab" style="display:none">
     <tr>
         <th>Plants</th>
@@ -23,26 +24,148 @@
         <td>Plant z</td>
     </tr>
 </table>
+</div>
+
+<div class="second">
+    <button id="dryBtn" onclick="showDryTab()">Dry</button>
+<table id="dryTab" style="display:none">
+    <tr>
+        <th>Plants</th>
+    </tr>
+    <tr>
+        <td>Plant x</td>
+    </tr>
+    <tr>
+        <td>Plant y</td>
+    </tr>
+    <tr>
+        <td>Plant z</td>
+    </tr>
+</table>
+</div>
+
+<div class="third">
+    <button id="tempBtn" onclick="showTempTab()">Temperate</button>
+    <table id="tempTab" style="display:none">
+        <tr>
+            <th>Plants</th>
+        </tr>
+        <tr>
+            <td>Plant x</td>
+        </tr>
+        <tr>
+            <td>Plant y</td>
+        </tr>
+        <tr>
+            <td>Plant z</td>
+        </tr>
+    </table>
+</div>
+
+<div class="fourth">
+    <button id="contBtn" onclick="showContTab()">Continental</button>
+    <table id="contTab" style="display:none">
+        <tr>
+            <th>Plants</th>
+        </tr>
+        <tr>
+            <td>Plant x</td>
+        </tr>
+        <tr>
+            <td>Plant y</td>
+        </tr>
+        <tr>
+            <td>Plant z</td>
+        </tr>
+    </table>
+</div>
 
 
+<style>
+    .first {
+        float: left;
+        width: 10%;
+        border: 1px solid blue;
+    }
+    .second {
+        float: left;
+        width: 10%;
+        border: 1px solid blue;
+    }
+    .third {
+        float: left;
+        width: 10%;
+        border: 1px solid blue;
+    }
+    .fourth {
+        float: left;
+        width: 10%;
+        border: 1px solid blue;
+    }
+    .img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .trop {
+        background-color: blue;
+        color: white;
+    }
+</style>
 
 
 
 <script>
-    let isHidden = 1;
-    function showTab() {
-        if (isHidden == 1) {
+    let isTropHidden = 1;
+    let isDryHidden = 1;
+    let isTempHidden = 1;
+    let isContHidden = 1;
+    function showTropTab() {
+        if (isTropHidden == 1) {
             document.getElementById("tropTab").style.display = "block";
             document.getElementById("tropBtn").innerHTML = "Hide";
-            isHidden = 0;
+            isTropHidden = 0;
         }
         else {
             document.getElementById("tropTab").style.display = "none";
             document.getElementById("tropBtn").innerHTML = "Tropical";
-            isHidden = 1;
+            isTropHidden = 1;
         }
     }
-
-
-
+    function showDryTab() {
+        if (isDryHidden == 1) {
+            document.getElementById("dryTab").style.display = "block";
+            document.getElementById("dryBtn").innerHTML = "Hide";
+            isDryHidden = 0;
+        }
+        else {
+            document.getElementById("dryTab").style.display = "none";
+            document.getElementById("dryBtn").innerHTML = "Dry";
+            isDryHidden = 1;
+        }
+    }
+    function showTempTab() {
+        if (isTempHidden == 1) {
+            document.getElementById("tempTab").style.display = "block";
+            document.getElementById("tempBtn").innerHTML = "Hide";
+            isTempHidden = 0;
+        }
+        else {
+            document.getElementById("tempTab").style.display = "none";
+            document.getElementById("tempBtn").innerHTML = "Temperate";
+            isTempHidden = 1;
+        }
+    }
+    function showContTab() {
+        if (isContHidden == 1) {
+            document.getElementById("contTab").style.display = "block";
+            document.getElementById("contBtn").innerHTML = "Hide";
+            isContHidden = 0;
+        }
+        else {
+            document.getElementById("contTab").style.display = "none";
+            document.getElementById("contBtn").innerHTML = "Continental";
+            isContHidden = 1;
+        }
+    }
 </script>
