@@ -14,7 +14,7 @@ I researched [weather](https://github.com/genuinetools/weather.git) on github. I
 
 ## Chase Winbush
 ### Contributions
-I created the [Contact Us Page](https://localhost:7014/Contact%20Us)
+I created the [Contact Us Page](MIST353WeatherWebsite/Pages/Contact Us.cshtml)
 ### Competitive Analysis
 The Website I chose is called garden tracker. I chose this website because it has some similarities to ours but also some differences to it as well. A similarity to our page includes the plant guides, on garden tracker it shows you when, where, and the ideal weather conditions to plant each plant. On our website we have a page called weather information showing which plants grow best in each condition. A key difference is that garden tracker wants you to track the weather while our website tracks it for you. I also did not see a specific bootstrap being used but there is a lot of css with the color codes like we used in class. One thing I also saw was theat there was a big use of javascript to handle the links that they wanted to display and enable the users to follow them.
 https://limitlessgrowth.co/weather-tracker/
