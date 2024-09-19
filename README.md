@@ -32,7 +32,7 @@ The repository that I found is called weather-tools https://github.com/google/we
 
 ## Chrisitan Marchitto
 ### Contributions
-
+Added the bootstrap and author of [WeatherInfo Page](https://github.com/clwinbush/MIST353WeatherWebsiteWinbush/blob/3ebae92c68dc6b26b0773b322e72281bc153cd9c/MIST353WeatherWebsite/Pages/WeatherInfo.cshtml)
 ### Competitive Analysis
 
 ### GitHub Repository Search
