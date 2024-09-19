@@ -3,14 +3,33 @@
 @{
 }
 
+<p>
 <h1 style="font-size:72px">
     Photo Gallery
 </h1>
+</p>
+
+<h2>Click below to hide or show the first image.</h2>
+<button onclick="myFunction()">Click Here</button>
+
+<p>
+<div id="myDIV">
+    <img src="https://ded7t1cra1lh5.cloudfront.net/media/682320/3b5dbcd851528afcd11b2cbf6c7ef94c62402769/original/banner-new.jpg?1647535064" alt="Landscaping" style="width:50%; height:80%">
+</div>
+</p>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
 
 <div class="row">
-    <div class="column">
-        <img src="https://ded7t1cra1lh5.cloudfront.net/media/682320/3b5dbcd851528afcd11b2cbf6c7ef94c62402769/original/banner-new.jpg?1647535064" alt="Landscaping" style="width:50%; height:80%">
-    </div>
     <div class="column">
         <img src="https://amandaseibert.com/wp-content/uploads/2023/04/IMG_8403-1-824x1024.jpg" alt="Pool" style="width:50%; height:80%">
     </div>
