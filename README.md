@@ -14,7 +14,7 @@ I researched [weather](https://github.com/genuinetools/weather.git) on github. I
 
 ## Chase Winbush
 ### Contributions
-I created the [Contact Us Page](https://github.com/clwinbush/MIST353WeatherWebsiteWinbush/blob/1e78983cb9387bd2ce185eee9b5f7d34393b88a9/MIST353WeatherWebsite/Pages/Contact%20Us.cshtml))
+I created the [Contact Us Page](https://github.com/clwinbush/MIST353WeatherWebsiteWinbush/blob/1e78983cb9387bd2ce185eee9b5f7d34393b88a9/MIST353WeatherWebsite/Pages/Contact%20Us.cshtml)
 ### Competitive Analysis
 The Website I chose is called garden tracker. I chose this website because it has some similarities to ours but also some differences to it as well. A similarity to our page includes the plant guides, on garden tracker it shows you when, where, and the ideal weather conditions to plant each plant. On our website we have a page called weather information showing which plants grow best in each condition. A key difference is that garden tracker wants you to track the weather while our website tracks it for you. I also did not see a specific bootstrap being used but there is a lot of css with the color codes like we used in class. One thing I also saw was theat there was a big use of javascript to handle the links that they wanted to display and enable the users to follow them.
 https://limitlessgrowth.co/weather-tracker/
@@ -24,7 +24,7 @@ https://github.com/whatwg/html
 
 ## Will Burge
 ### Contributions
-Author of Gallery page: MIST353WeatherWebsite/Pages/Gallery.cshtml
+Author of [Gallery page](https://github.com/clwinbush/MIST353WeatherWebsiteWinbush/blob/3ebae92c68dc6b26b0773b322e72281bc153cd9c/MIST353WeatherWebsite/Pages/Gallery.cshtml)
 ### Competitive Analysis
 I chose to research https://planthardiness.ars.usda.gov/ because it uses weather data in its relation to plant growth which is similar to one of the function of my group’s web app concept. This webpage opens showing an interactive map that shows the plant hardiness and conditions of the location that the user selects. Upon inspecting the site, I noticed that it is very complicated and well thought out. The developers utilized buttons to make all parts of the map accessible as well a various parts of the site using other things we’ve learned about in class such as json.
 ### GitHub Repository Search
