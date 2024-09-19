@@ -34,5 +34,8 @@ The repository that I found is called weather-tools https://github.com/google/we
 ### Contributions
 Added the bootstrap and author of [WeatherInfo Page](https://github.com/clwinbush/MIST353WeatherWebsiteWinbush/blob/3ebae92c68dc6b26b0773b322e72281bc153cd9c/MIST353WeatherWebsite/Pages/WeatherInfo.cshtml)
 ### Competitive Analysis
-
+The webiste I researched was [GreatPlantPicks](https://www.greatplantpicks.org/search/advanced). This website has a plant search feature that allows the user to select traits that they would want their plant to have and the website will provide the user with all of the plants that fit those traits. One of those traits is the USDA zone, which is something that I plan to further involve on my webpage. The website uses label tags for the users selection. I would assume that based on the user selection, the website would query a database and output all of the fields that match. I could not find the specific name of the bootstrap that was used, but it has a green theme.
 ### GitHub Repository Search
+The repository I researched was [plant-recommender](https://github.com/josephh867/plant-recommender). This repository is for an application that someone created to recommend plants based on user input. It uses data from a SQL database to query information on the plants to help the users find plants that can survive based on their conditions. The README file is very clear and provides links and explanations of their work.
+
+
