@@ -13,10 +13,12 @@ Primary author of README file, contributer on navbar, author of [homepage](https
 
 ## Chase Winbush
 ### Contributions
-I created the "Contact Us" Page
+I created the "Contact Us" Page: https://localhost:7014/Contact%20Us
 ### Competitive Analysis
+The Website I chose is called garden tracker. I chose this website because it has some similarities to ours but also some differences to it as well. A similarity to our page includes the plant guides, on garden tracker it shows you when, where, and the ideal weather conditions to plant each plant. On our website we have a page called weather information showing which plants grow best in each condition. A key difference is that garden tracker wants you to track the weather while our website tracks it for you. I also did not see a specific bootstrap being used but there is a lot of css with the color codes like we used in class. One thing I also saw was theat there was a big use of javascript to handle the links that they wanted to display and enable the users to follow them.
 https://limitlessgrowth.co/weather-tracker/
 ### GitHub Repository Search
+The Github Repository that I found is called "HTML" and it is used to create a website called HTML Sandard. This site is somewhat similar to W3 schools in that it is a website to learn HTML from and it even has the option for new editors so anyone can add things to help others learn. The main takeaway that I got from the README is that it has the controbution opportunities and guidelines on them. This is very helpful for new coders and i think all around this repository is great.
 https://github.com/whatwg/html
 
 ## Will Burge
