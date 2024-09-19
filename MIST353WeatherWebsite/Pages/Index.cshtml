@@ -15,3 +15,22 @@
     &#128516;</p>
 </div>
 
+<img src="https://i.pinimg.com/originals/c9/61/84/c96184c6801570392e0e04211ab5e958.jpg" alt="image of a lawn with flowers" id="flowerpic" />
+
+<button onclick="hidetheflower()" id="hideflowerbutton">Hide the lawn</button>
+<button onclick="showtheflower()" id="showflowerbutton" style="display:none;">Show the lawn</button>
+
+<script>
+    function hidetheflower() {
+        document.getElementById("flowerpic").style.display = "none";
+        document.getElementById("hideflowerbutton").style.display = "none";
+        document.getElementById("showflowerbutton").style.display = "block";
+    }
+
+    function showtheflower() {
+        document.getElementById("flowerpic").style.display = "block"
+        document.getElementById("showflowerbutton").style.display = "none";
+        document.getElementById("hideflowerbutton").style.display = "block";
+    }
+
+</script>
