@@ -7,8 +7,9 @@ Functioning homepage with website description, hideable image, and info on websi
 ### Contributions
 Primary author of README file, contributer on navbar, author of [homepage](https://github.com/clwinbush/MIST353WeatherWebsiteWinbush/blob/c8cb13467b50478d03a15afd7cb64f5bed9a4296/MIST353WeatherWebsite/Pages/Index.cshtml)
 ### Competitive Analysis
-
+I researched [Gardenia](https://www.gardenia.net/) which has similaiities to our website. It has various ideas for plants and combinations of them to use. One of the pages has recomendations based on country whihc is specifically like what we are doing. Upon clicking a country it shows topigraphical information on that country and then a list of several gardens you can click on to get more details on it and links too specific plants which are part of that garden. It isn't extremely complicated, but it has lots of links and pages included in it.
 ### GitHub Repository Search
+I researched [weather](https://github.com/genuinetools/weather.git) on github. It was a command line weather application which forecasts based on location. This isn't completely similar to our application, but our website will need some sort of weather tool to be able to give info on good plants to use there.
 
 
 ## Chase Winbush
