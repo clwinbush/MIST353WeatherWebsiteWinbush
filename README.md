@@ -4,7 +4,7 @@
 Functioning homepage with website description, hideable image, and info on website's current state. Contact us page with informtion on how to contact each contributer. Gallery page with images of various plants and landscapes. Weather information with a topigraphical map of the united states and dropdown menu of plants in each climate.
 
 ## Maxson Lantz
-Primary author of README file, work on homebar, author of homepage.
+Primary author of README file, contributer on navbar, author of [homepage](https://github.com/clwinbush/MIST353WeatherWebsiteWinbush/blob/c8cb13467b50478d03a15afd7cb64f5bed9a4296/MIST353WeatherWebsite/Pages/Index.cshtml)
 
 ## Chase Winbush
 
