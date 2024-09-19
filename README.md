@@ -13,11 +13,11 @@ Primary author of README file, contributer on navbar, author of [homepage](https
 
 ## Chase Winbush
 ### Contributions
-
+I created the "Contact Us" Page
 ### Competitive Analysis
-
+https://limitlessgrowth.co/weather-tracker/
 ### GitHub Repository Search
-
+https://github.com/whatwg/html
 
 ## Will Burge
 ### Contributions
