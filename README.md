@@ -9,5 +9,12 @@ Primary author of README file, work on homebar, author of homepage.
 ## Chase Winbush
 
 ## Will Burge
+Author of Gallery page: 
+
+1.	Competitive Analysis
+I chose to research https://planthardiness.ars.usda.gov/ because it uses weather data in its relation to plant growth which is similar to one of the function of my group’s web app concept. This webpage opens showing an interactive map that shows the plant hardiness and conditions of the location that the user selects. Upon inspecting the site, I noticed that it is very complicated and well thought out. The developers utilized buttons to make all parts of the map accessible as well a various parts of the site using other things we’ve learned about in class such as json.
+
+2.	GitHub Repository Search
+The repository that I found is called weather-tools https://github.com/google/weather-tools . This repository creates a series of implementable tools that assist with fetching and accessibility of useful weather data. The tools in this repo include weather downloader which accesses data, weather mover which is a tool for broad analysis and weather splitter to normalize how the data is stored.
 
 ## Chrisitan Marchitto
