@@ -15,6 +15,11 @@ BEGIN
 END
 go
 
+/*
+exec spCreatePlant 10, Venus FLy Trap, Dionaea muscipula, floweing plant that uses leaves to trap insects, 12
+GO
+*/
+
 --delete plant
 create or alter proc spDeletePlant
 	@PlantID int
@@ -23,3 +28,8 @@ begin
 DELETE FROM dbo.Plants where PlantID=@PlantID;
 end
 go
+
+/*
+exec spDeletePlant 10
+GO
+*/
