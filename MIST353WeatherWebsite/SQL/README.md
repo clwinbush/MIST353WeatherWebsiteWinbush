@@ -50,3 +50,23 @@ CREATE TABLE Plants (
     FOREIGN KEY (ClimateID) REFERENCES Climates(ClimateID)
     
 );
+4. turn the following into parameters for sql server: UserID INT IDENTITY(1,1) PRIMARY KEY,
+    FirstName NVARCHAR(50) NOT NULL,
+    LastName NVARCHAR(50) NOT NULL,
+    Email NVARCHAR(100) UNIQUE NOT NULL,
+    PhoneNumber NVARCHAR(20),
+    LocationID INT,
+    FOREIGN KEY (LocationID) REFERENCES Locations(LocationID)
+
+    CREATE PROCEDURE AddUser
+    @FirstName NVARCHAR(50) NOT NULL,
+    @LastName NVARCHAR(50) NOT NULL,
+    @Email NVARCHAR(100) NOT NULL,
+    @PhoneNumber NVARCHAR(20) = NULL,
+    @LocationID INT = NULL
+AS
+BEGIN
+    INSERT INTO Users (FirstName, LastName, Email, PhoneNumber, LocationID)
+    VALUES (@FirstName, @LastName, @Email, @PhoneNumber, @LocationID);
+END
+
