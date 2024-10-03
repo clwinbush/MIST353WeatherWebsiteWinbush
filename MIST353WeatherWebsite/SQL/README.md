@@ -1,4 +1,18 @@
-# Chat GPT Prompts:
+# Stored Procedures by Creator
+## Chase Winbush
+1. spCreatePlant: adds new entry to the Plants table with given info
+2. spDeletePlant: deletes entry from the Plants table with given ID
+## Chrisian Marchitto
+1. spServiceByClimate: finds landscaping services in given climate
+2. spPlantsInTemp: finds plants that are located in a climate with an average temperture less than or equal to the one given
+## Maxson Lantz
+1. spCreateUser: adds entry to Users table with given info
+2. spDeleteUser: deletes entry from Users table with given ID
+## William Burge
+1. spGetPlantByLocation: finds all plants in given location
+2. spUserUpdate: changes info in Users table
+   
+# Chat GPT Prompts
 1. create a SQL server database for a website that allows users to explore landscaping services for their local climate and weather conditions
 
 2. using sql server, generate data for this table:
