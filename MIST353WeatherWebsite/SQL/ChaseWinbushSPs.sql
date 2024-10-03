@@ -16,7 +16,11 @@ END
 go
 
 /*
-exec spCreatePlant 10, Venus FLy Trap, Dionaea muscipula, floweing plant that uses leaves to trap insects, 12
+exec spCreatePlant  
+'Venus Fly Trap' 
+,'Dionaea muscipula'
+,'floweing plant that uses leaves to trap insects'
+,3
 GO
 */
 
