@@ -5,6 +5,8 @@ VisualStudioVersion = 17.11.35219.272
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MIST353WeatherWebsite", "MIST353WeatherWebsite\MIST353WeatherWebsite.csproj", "{CDB09B65-9CFB-4EA0-82A2-4A606742E27A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MIST353WeatherWebsiteAPIS", "MIST353WeatherWebsiteAPIS\MIST353WeatherWebsiteAPIS.csproj", "{918BFA28-A58D-44FF-BFDD-BBD92115638A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{CDB09B65-9CFB-4EA0-82A2-4A606742E27A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CDB09B65-9CFB-4EA0-82A2-4A606742E27A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CDB09B65-9CFB-4EA0-82A2-4A606742E27A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{918BFA28-A58D-44FF-BFDD-BBD92115638A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{918BFA28-A58D-44FF-BFDD-BBD92115638A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{918BFA28-A58D-44FF-BFDD-BBD92115638A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{918BFA28-A58D-44FF-BFDD-BBD92115638A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

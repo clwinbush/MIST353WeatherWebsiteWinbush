@@ -3,7 +3,6 @@ GO
 
 -- add new plant
 create or alter proc spCreatePlant
-    @PlantID int =NULL,
     @PlantName NVARCHAR(100) =NULL,
     @ScientificName NVARCHAR(150) =NULL,
     @Description NVARCHAR(500) = NULL,
