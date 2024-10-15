@@ -9,8 +9,8 @@ create or alter proc spCreatePlant
     @ClimateID INT = NULL
 AS
 BEGIN
-    INSERT INTO dbo.Plants (PlantID, PlantName, ScientificName, [Description], ClimateID)
-    VALUES (@PlantID, @PlantName, @ScientificName, @Description, @ClimateID);
+    INSERT INTO dbo.Plants (PlantName, ScientificName, [Description], ClimateID)
+    VALUES (@PlantName, @ScientificName, @Description, @ClimateID);
 END
 go
 
