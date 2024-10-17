@@ -11,12 +11,12 @@ namespace MIST353WeatherWebsiteAPIS.Controllers
     [ApiController]
     public class PlantController : ControllerBase
     {
-       
 
-        private readonly IPlantService productService;
-        public PlantController(IPlantService productService)
+
+        private readonly IPlantService plantService;
+        public PlantController(IPlantService plantService)
         {
-            this.productService = productService;
+            this.plantService = plantService;
         }
 
         [HttpPost("addplant")]
@@ -28,7 +28,7 @@ namespace MIST353WeatherWebsiteAPIS.Controllers
             }
             try
             {
-                var response = await PlantService.AddPlantAsync(plant);
+                var response = await plantService.AddPlantAsync(plant);
                 return Ok(response);
             }
             catch
@@ -36,6 +36,23 @@ namespace MIST353WeatherWebsiteAPIS.Controllers
                 throw;
             }
         }
-    }
+
+        [HttpDelete("deleteplant")]
+        public async Task<int> DeletePlantAsync(int PlantID)
+        {
+            try
+            {
+                var response = await plantService.DeletePlantAsync(PlantID);
+                return response;
+            }
+            catch
+            {
+                throw;
+            }
+
+        }
+
+
     }
 }
+
