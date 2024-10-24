@@ -2,7 +2,7 @@
 
 namespace MIST353WeatherWebsiteAPIS.New_Repositories
 {
-    public interface IPlantService
+    public interface IChaseWinbushService
     {
         Task<int> AddPlantAsync(Plant plant);
         Task<int> DeletePlantAsync(int PlantID);

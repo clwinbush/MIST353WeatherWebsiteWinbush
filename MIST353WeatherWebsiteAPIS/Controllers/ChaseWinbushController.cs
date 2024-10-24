@@ -9,12 +9,12 @@ namespace MIST353WeatherWebsiteAPIS.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class PlantController : ControllerBase
+    public class ChaseWinbushController : ControllerBase
     {
 
 
-        private readonly IPlantService plantService;
-        public PlantController(IPlantService plantService)
+        private readonly IChaseWinbushService plantService;
+        public ChaseWinbushController(IChaseWinbushService plantService)
         {
             this.plantService = plantService;
         }
@@ -38,18 +38,11 @@ namespace MIST353WeatherWebsiteAPIS.Controllers
         }
 
         [HttpDelete("deleteplant")]
-        public async Task<int> DeletePlantAsync(int PlantID)
+        public async Task<IActionResult> DeletePlantAsync(int PlantID)
         {
-            try
-            {
+           
                 var response = await plantService.DeletePlantAsync(PlantID);
-                return response;
-            }
-            catch
-            {
-                throw;
-            }
-
+                return Ok(response);
         }
 
 

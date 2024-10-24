@@ -6,7 +6,7 @@ using MIST353WeatherWebsiteAPIS.New_Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
-builder.Services.AddScoped<IPlantService, PlantService>();
+builder.Services.AddScoped<IChaseWinbushService, ChaseWinbushService>();
 builder.Services.AddDbContext<DbContextClass>();
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

@@ -2,13 +2,14 @@
 using MIST353WeatherWebsiteAPIS.New_Repositories;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
+using System.Security.Cryptography;
 
 namespace MIST353WeatherWebsiteAPIS.New_Repositories
 {
-    public class PlantService : IPlantService
+    public class ChaseWinbushService : IChaseWinbushService
     {
         private readonly DbContextClass _dbContext;
-        public PlantService(DbContextClass dbContext)
+        public ChaseWinbushService(DbContextClass dbContext)
         {
             _dbContext = dbContext;
         }
@@ -26,7 +27,9 @@ namespace MIST353WeatherWebsiteAPIS.New_Repositories
         }
         public async Task<int> DeletePlantAsync(int PlantID)
         {
-            return await _dbContext.Database.ExecuteSqlRawAsync("exec spDeletePlant @PlantID");
+
+            var param = new SqlParameter("@PlantID", PlantID);
+            return await _dbContext.Database.ExecuteSqlRawAsync("exec spDeletePlant @PlantID", param);
         }
     }
 }
