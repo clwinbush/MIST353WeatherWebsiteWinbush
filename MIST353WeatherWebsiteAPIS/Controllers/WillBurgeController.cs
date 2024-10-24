@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Identity.Client;
 
 namespace MIST353WeatherWebsiteAPIS.Controllers
 {
@@ -33,7 +34,27 @@ namespace MIST353WeatherWebsiteAPIS.Controllers
             {
                 throw;
             }
-        }
 
-    }
-}
+        }
+        [HttpGet("getallplantsbylocation")]
+        public async Task<IEnumerable<Plant>> GetAllPlantsByLocationAsync(int LocationId)
+            {
+                try
+                {
+                    var response = await WillBurgeService.GetAllPlantsByLocationAsync(LocationId);
+                    if (response == null)
+                    {
+                        return null;
+                    }
+                    return response;
+                }
+                catch
+                {
+                    throw;
+
+                }
+
+            }
+
+        }
+    } 

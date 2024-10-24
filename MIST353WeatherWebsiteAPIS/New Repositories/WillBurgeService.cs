@@ -25,7 +25,13 @@ namespace MIST353WeatherWebsiteAPIS.New_Repositories
             return await _dbContext.Database.ExecuteSqlRawAsync("exec spUserUpdate @UserId, @FirstName, @LastName, @Email, @PhoneNumber, @LocationId", parameter.ToArray());
         }
 
-        public async Task
+        public async Task<IEnumerable<Plant>> GetAllPlantsByLocationAsync(int LocationId)
+        {
+            var param = new SqlParameter("@LocationId",LocationId);
+            var plantDetails = await Task.Run(() => _dbContext.P
+                .FromSqlRaw(@"exec spGetPlantsByLocation @LocationId", param).ToListAsync());
+            return plantDetails;
+        }
 
     }
 }
