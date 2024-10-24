@@ -15,5 +15,7 @@ namespace MIST353WeatherWebsiteAPIS.Data
             options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));
         }
         public DbSet<Plant> P { get; set; }
+
+        public DbSet<User> U { get; set; }
     }
 }
