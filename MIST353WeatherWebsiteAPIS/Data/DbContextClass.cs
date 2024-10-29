@@ -19,5 +19,6 @@ namespace MIST353WeatherWebsiteAPIS.Data
         public DbSet<User> U { get; set; }
 
         public DbSet<Location> L { get; set; }
+        public DbSet<LandscapingService> LS { get; set; }   
     }
 }
