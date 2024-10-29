@@ -13,6 +13,7 @@ namespace MIST353WeatherWebsiteAPIS.New_Repositories
             _dbContext = dbContext;
         }
 
+        //Updates user info.
         public async Task<int> UpdateUserAsync(User user)
         {
             var parameter = new List<SqlParameter>();
@@ -25,6 +26,7 @@ namespace MIST353WeatherWebsiteAPIS.New_Repositories
             return await _dbContext.Database.ExecuteSqlRawAsync("exec spUserUpdate @UserId, @FirstName, @LastName, @Email, @PhoneNumber, @LocationId", parameter.ToArray());
         }
 
+        //Retrieves plant info based on user input.
         public async Task<IEnumerable<Plant>> GetAllPlantsByLocationAsync(int LocationId)
         {
             var param = new SqlParameter("@LocationId",LocationId);
