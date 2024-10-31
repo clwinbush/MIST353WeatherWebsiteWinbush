@@ -21,7 +21,7 @@ namespace MIST353WeatherWebsiteAPIS.New_Repositories
             parameter.Add(new SqlParameter("@PlantName", plant.PlantName));
             parameter.Add(new SqlParameter("@ScientificName", plant.ScientificName));
             parameter.Add(new SqlParameter("@Description", plant.Description));
-            parameter.Add(new SqlParameter("@ClimateID", plant.Climate));
+            parameter.Add(new SqlParameter("@ClimateID", plant.ClimateId));
             return await _dbContext.Database.ExecuteSqlRawAsync("exec spCreatePlant @PlantName, @ScientificName, @Description, @ClimateID", parameter.ToArray());
 
         }
