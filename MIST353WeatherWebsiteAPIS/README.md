@@ -7,6 +7,8 @@ Home - Provides a greeting message and allows the user to select which page they
 Weather Info - Provides weather infomation for a certain location chosen on an interactive map.
 Contact - Displays the contact information of all group members.
 Gallery - Displays a collection of photos related to the services that the application provides.
+Plant - Allows you to add, delete, and search plants
+User - Allows you to register or unregister as a user
 
 ## Maxson Lantz
 ### API 1
