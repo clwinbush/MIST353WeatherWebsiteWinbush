@@ -2,11 +2,11 @@
 
 ## Web application proposal/design 
 Our website uses weather and plant information to provide the user with landscaping insight and services.
-Pages
-Home: Provides a greeting message and allows the user to select which page they would like to use.
-Weather Info: Provides weather infomation for a certain location chosen on an interactive map.
-Contact: Displays the contact information of all group members.
-Gallery: Displays a collection of photos related to the services that the application provides.
+Pages include:
+Home - Provides a greeting message and allows the user to select which page they would like to use.
+Weather Info - Provides weather infomation for a certain location chosen on an interactive map.
+Contact - Displays the contact information of all group members.
+Gallery - Displays a collection of photos related to the services that the application provides.
 
 ## Maxson Lantz
 ### API 1
