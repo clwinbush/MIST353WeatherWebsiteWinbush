@@ -33,7 +33,7 @@ My second API is a get called GetAllPlantsByLocation. It allows the user to type
 
 ## Chrisitan Marchitto
 ### API 1
-
+My first API is PlantsInTemp. The user inputs an average temperature and the api outputs all of the plants that are less than or equal to the given temperature.
 ### API 2
-
+My second API is ServiceByClimate. This allows the user to find all of the services that the company provides for a specific climate zone. The user inputs a climate id and the services available will be outputed.
 
