@@ -15,6 +15,7 @@ namespace MIST353WeatherWebsiteAPIS.Controllers
         {
             this.ChristianMarchittoService = ChristianMarchittoService;
         }
+        //Runs the sp as an HTTP get response
         [HttpGet("plantsintemperature")]
         public async Task<IEnumerable<Plant>> PlantsInTemp(int avgTemp)
         {
@@ -32,6 +33,7 @@ namespace MIST353WeatherWebsiteAPIS.Controllers
                 throw;
             }
         }
+        //Runs the sp as an HTTP get response
         [HttpGet("getservicebyclimate")]
         public async Task<IEnumerable<LandscapingService>> ServiceByClimate(int climateId)
         {
