@@ -14,7 +14,7 @@ namespace MIST353WeatherWebsiteAPIS.New_Repositories
             _dbContext = dbContext;
         }
 
-
+        // this is a method to add plants from the database.
         public async Task<int> AddPlantAsync(Plant plant)
         {
             var parameter = new List<SqlParameter>();
@@ -25,6 +25,7 @@ namespace MIST353WeatherWebsiteAPIS.New_Repositories
             return await _dbContext.Database.ExecuteSqlRawAsync("exec spCreatePlant @PlantName, @ScientificName, @Description, @ClimateID", parameter.ToArray());
 
         }
+        // this is a method to delete plants from the database.
         public async Task<int> DeletePlantAsync(int PlantID)
         {
 
