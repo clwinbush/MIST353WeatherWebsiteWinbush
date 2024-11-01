@@ -12,9 +12,10 @@ User - Allows you to register or unregister as a user
 
 ## Maxson Lantz
 ### API 1
+The purpose of my first api is to add a user to the database with the inputs of first name, last name, phone number, email adress, and location id
 
 ### API 2
- 
+ the purpose of my second api is to delete a user from the databse gien their user id
 
 ## Chase Winbush
 ### API 1
