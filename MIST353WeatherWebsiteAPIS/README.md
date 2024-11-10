@@ -8,7 +8,7 @@ Weather Info - Provides weather infomation for a certain location chosen on an i
 Contact - Displays the contact information of all group members.\
 Gallery - Displays a collection of photos related to the services that the application provides.\
 Plant input- Allows you to add and delete plants\
-Sarch- allows users to search for plants\
+Search- allows users to search for plants\
 User - Allows you to register or unregister as a user\
 FAQ- shows questions about the website asked frequekntly
 
