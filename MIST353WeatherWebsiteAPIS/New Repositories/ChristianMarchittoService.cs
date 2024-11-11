@@ -13,13 +13,14 @@ namespace MIST353WeatherWebsiteAPIS.New_Repositories
         {
             _dbContext = dbContext;
         }
+        //Runs a stored procedure that outputs the plants in an avg temp using the given avgTemp value from the user 
         public async Task<IEnumerable<Plant>> PlantsInTemp(int avgTemp)
         {
             var param = new SqlParameter("@AverageTemperature", avgTemp);
             var plantTempDetails = await Task.Run(() => _dbContext.P.FromSqlRaw(@"exec spPlantsInTemp @AverageTemperature", param).ToListAsync());
             return plantTempDetails;
         }
-
+        //Runs a stored procedure that outputs the services offered in a climate using the given climateId value from the user
         public async Task<IEnumerable<LandscapingService>> ServiceByClimate(int climateId)
         {
             var param = new SqlParameter("@ClimateID", climateId);

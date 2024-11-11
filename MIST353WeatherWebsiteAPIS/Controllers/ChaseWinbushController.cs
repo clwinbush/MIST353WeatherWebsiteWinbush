@@ -19,6 +19,7 @@ namespace MIST353WeatherWebsiteAPIS.Controllers
             this.plantService = plantService;
         }
 
+        //Added "add plant" to the controller
         [HttpPost("addplant")]
         public async Task<IActionResult> AddPlantAsync(Plant plant)
         {
@@ -37,6 +38,7 @@ namespace MIST353WeatherWebsiteAPIS.Controllers
             }
         }
 
+        //Added "delete plant" to the controller
         [HttpDelete("deleteplant")]
         public async Task<IActionResult> DeletePlantAsync(int PlantID)
         {
