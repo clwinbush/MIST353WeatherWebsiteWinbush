@@ -8,6 +8,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddScoped<IChaseWinbushService, ChaseWinbushService>();
 builder.Services.AddScoped<IWillBurgeService, WillBurgeService>();
+builder.Services.AddScoped<IChristianMarchittoService, ChristianMarchittoService>();
 builder.Services.AddDbContext<DbContextClass>();
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

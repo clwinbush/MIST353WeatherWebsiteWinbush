@@ -14,17 +14,18 @@ namespace MIST353WeatherWebsiteAPIS.New_Repositories
             _dbContext = dbContext;
         }
 
-
+        // this is a method to add plants from the database.
         public async Task<int> AddPlantAsync(Plant plant)
         {
             var parameter = new List<SqlParameter>();
             parameter.Add(new SqlParameter("@PlantName", plant.PlantName));
             parameter.Add(new SqlParameter("@ScientificName", plant.ScientificName));
             parameter.Add(new SqlParameter("@Description", plant.Description));
-            parameter.Add(new SqlParameter("@ClimateID", plant.Climate));
+            parameter.Add(new SqlParameter("@ClimateID", plant.ClimateId));
             return await _dbContext.Database.ExecuteSqlRawAsync("exec spCreatePlant @PlantName, @ScientificName, @Description, @ClimateID", parameter.ToArray());
 
         }
+        // this is a method to delete plants from the database.
         public async Task<int> DeletePlantAsync(int PlantID)
         {
 
