@@ -1,10 +1,12 @@
-﻿using Microsoft.Data.SqlClient;
+﻿using MIST353WeatherWebsiteAPIS.Data;
+using MIST353WeatherWebsiteAPIS.New_Repositories;
+using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
-using MIST353WeatherWebsiteAPIS.Data;
+using System.Security.Cryptography;
 
 namespace MIST353WeatherWebsiteAPIS.New_Repositories
 {
-    public class MaxsonLantzService
+    public class MaxsonLantzService : IMaxsonLantzService
     {
         private readonly DbContextClass _dbContext;
         public MaxsonLantzService(DbContextClass dbContext)
