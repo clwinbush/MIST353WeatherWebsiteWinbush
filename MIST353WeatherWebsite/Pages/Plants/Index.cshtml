@@ -1,0 +1,54 @@
+﻿@page
+@model MIST353WeatherWebsite.Pages.Plants.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Plant[0].PlantName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Plant[0].ScientificName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Plant[0].Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Plant[0].Climate)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Plant) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.PlantName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ScientificName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Climate.ClimateId)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.PlantId">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.PlantId">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.PlantId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

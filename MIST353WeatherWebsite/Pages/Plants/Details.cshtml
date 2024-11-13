@@ -1,0 +1,43 @@
+﻿@page
+@model MIST353WeatherWebsite.Pages.Plants.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Plant</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Plant.PlantName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Plant.PlantName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Plant.ScientificName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Plant.ScientificName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Plant.Description)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Plant.Description)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Plant.Climate)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Plant.Climate.ClimateId)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.Plant.PlantId">Edit</a> |
+    <a asp-page="./Index">Back to List</a>
+</div>
