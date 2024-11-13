@@ -2,17 +2,22 @@
 
 ## Web application proposal/design 
 Our website uses weather and plant information to provide the user with landscaping insight and services.
-Pages include:
-Home - Provides a greeting message and allows the user to select which page they would like to use.
-Weather Info - Provides weather infomation for a certain location chosen on an interactive map.
-Contact - Displays the contact information of all group members.
-Gallery - Displays a collection of photos related to the services that the application provides.
+Pages include:\
+Home - Provides a greeting message and allows the user to select which page they would like to use.\
+Weather Info - Provides weather infomation for a certain location chosen on an interactive map.\
+Contact - Displays the contact information of all group members.\
+Gallery - Displays a collection of photos related to the services that the application provides.\
+Plant input- Allows you to add and delete plants\
+Search- allows users to search for plants\
+User - Allows you to register or unregister as a user\
+FAQ- shows questions about the website asked frequekntly
 
 ## Maxson Lantz
 ### API 1
+The purpose of my first api is to add a user to the database with the inputs of first name, last name, phone number, email adress, and location id
 
 ### API 2
- 
+ the purpose of my second api is to delete a user from the databse gien their user id
 
 ## Chase Winbush
 ### API 1

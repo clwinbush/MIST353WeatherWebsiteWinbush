@@ -1,3 +1,6 @@
+use LandscapingDB
+go
+
 -- Insert into Climates
 INSERT INTO Climates (ClimateName, Description)
 VALUES 
