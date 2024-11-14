@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using MIST353WeatherWebsite.Data;
 
-namespace MIST353WeatherWebsite.Pages.LocationCRUD
+namespace MIST353WeatherWebsite.Pages.Locations
 {
     public class EditModel : PageModel
     {

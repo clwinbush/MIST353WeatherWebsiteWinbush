@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using MIST353WeatherWebsite.Data;
 
-namespace MIST353WeatherWebsite.Pages.LocationCRUD
+namespace MIST353WeatherWebsite.Pages.Locations
 {
     public class DeleteModel : PageModel
     {
