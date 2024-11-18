@@ -1,0 +1,29 @@
+﻿@page
+@model MIST353WeatherWebsite.Pages.PlantsInTempModel
+@{
+}
+<h1>Find Plants In Your Temperature</h1>
+<form method="post">
+    <label for="temperature" class="form-label">Enter Temperature (°C):</label>
+    <input type="number" class="form-control" id="temperature" name="temperature" step="0.1" required />
+    <button type="submit" class="btn btn-primary">Search</button>
+</form>
+
+@if (Model.Plants != null && Model.Plants.Any())
+{
+    <h2>Plants for this temperature and below:</h2>
+    <ul>
+        @foreach (var plant in Model.Plants)
+        {
+            <li>
+                <strong>Name:</strong> @plant.PlantName<br />
+                <strong>Scientific Name:</strong> @plant.ScientificName<br />
+                <strong>Description:</strong> @plant.Description<br />
+            </li>
+        }
+    </ul>
+}
+else
+{
+    <p>No plants found for this temperature.</p>
+}
