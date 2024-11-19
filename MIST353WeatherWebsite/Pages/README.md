@@ -19,7 +19,7 @@ CRUD page for the Location entity.
 Page with a climate map and buttons for each climate.
 ### Climate
 CRUD page for the Climate entity that uses an API to get LandscapingServices for each climate.
-### Plant Finder
+### Plant Finder/PlantsInTemp
 Page that allows the user to enter a temperature to find all plants that fall under that temperature or lower.
 Used chatGPT to write part of the backend and fronted of the page using the prompt: 
 "make a razor page using visual studio to have a field where a user inputs a temperature 
