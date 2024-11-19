@@ -13,7 +13,7 @@ CRUD page for the plant enitity
 ### Gallery
 Page with photos related to the web app service.
 ### Location
-CRUD page for the Location entity
+CRUD page for the Location entity.
 ## Christian Marchitto
 ### Home
 ### User
