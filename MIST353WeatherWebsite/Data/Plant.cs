@@ -6,7 +6,7 @@ namespace MIST353WeatherWebsite.Data;
 
 public partial class Plant
 {
-    [JsonPropertyName("plantId")]
+    [JsonPropertyName("plantId")] //Needed to add in order for the deserializer to work, links the JSON name to the attribute name
     public int PlantId { get; set; }
 
     [JsonPropertyName("plantName")]
