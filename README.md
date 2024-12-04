@@ -12,7 +12,7 @@ Our website is one in whih users can find plants which are suitable for their cl
 <!--done to make markdown stop the list-->
 If all steps were followed correctly the website should be opened
 
-## APIs Description
+## API Descriptions
 ### Maxson Lantz
 #### API 1
 The purpose of my first api is to add a user to the database with the inputs of first name, last name, phone number, email adress, and location id
@@ -44,3 +44,4 @@ My first API is PlantsInTemp. The user inputs an average temperature and the api
 My second API is ServiceByClimate. This allows the user to find all of the services that the company provides for a specific climate zone. The user inputs a climate id and the services available will be outputed.
 
 ## Developer Info
+The website is only a prototype so if you are taking over you can do a number of things t make it more professional. Some of the pages don't serve too much of a purpose and can be deleted (like the privacy page)  but were there because they were default. The API folder isn't fully nesecary for some of the APIs to run since the pages using them ended up being default CRUD pages. There are several README.md files in this, but this is pretty much the only one that is nessecary.
