@@ -7,6 +7,7 @@
 3. Click Open on the popup this will bring up
 4. in the top center of visual studio click the https button
 \
+\
 If all steps were followed correctly the website should be opened
 
 
