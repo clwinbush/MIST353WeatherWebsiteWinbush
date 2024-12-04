@@ -6,7 +6,7 @@
 2. Select the option from the dropdown menu which says open with cisual studio
 3. Click Open on the popup this will bring up
 4. in the top center of visual studio click the https button
-<!-- -->
+<!--done to make markdown stop the list-->
 If all steps were followed correctly the website should be opened
 
 
